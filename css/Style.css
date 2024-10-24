@@ -8,8 +8,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background:#eee ;
-  color:#333 ;
+  background: #eee;
+  color: #333;
 }
 
 p {
@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
@@ -39,17 +39,21 @@ strong {
 
 /* class */
 
-.container{
+.container {
   max-width: 1200px;
   margin: auto;
 }
 
-.title{
-  font-weight:300 ;
+.title {
+  font-weight: 300;
   font-size: 2rem;
   margin-bottom: 3rem;
 }
 
+.bg-dark {
+  background: #333;
+  color: white;
+}
 
 /* vp + header */
 
@@ -133,40 +137,70 @@ header a {
   line-height: 2rem;
 }
 
-
 /* offer */
 
-.offer{
+.offer {
   padding: 10rem 1rem 10rem 1rem;
 }
 
-
-.offer-list{
-  display:flex ;
+.offer-list {
+  display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
 
-
-.offer-elem{
+.offer-elem {
   border: 1px solid#ddd;
   background: white;
   margin: 1rem;
   flex: 1;
 }
 
-.offer-elem-img{
+.offer-elem-img {
   width: 100%;
 }
 
-.offer-elem-text{
+.offer-elem-text {
   padding: 2rem;
   text-align: center;
 }
 
-.offer-separator{
+.offer-separator {
   margin: 1rem auto;
   height: 2px;
   width: 50px;
   background: #333;
+}
+
+/* who. */
+
+.who {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.who-content-img {
+  flex: 1;
+}
+
+.who-content-img img {
+  width: 100%;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  background: #333;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-content-text h2 {
+  margin-bottom: 2rem;
+}
+
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
